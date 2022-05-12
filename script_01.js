@@ -11,9 +11,18 @@ function test() {
     console.log("grisabella");
 }
 ausgabeNamen();
-    
+ // let    
 function ausgabeNamen() {
-    console.log("hallo bernd");
-    console.log("hallo Karo");
-    console.log("hallo Mohanned");
+    let firstName = "bianca";
+    console.log("hallo " + firstName + "!");
+   
     }
+    ausgabeNamen2("Berhard");
+    ausgabeNamen2("otto");
+    ausgabeNamen2("Mohnnete");
+function ausgabeNamen2(firstName) {
+    
+    console.log("hallo " + firstName + "!");
+   
+    }
+//console(firstName);
